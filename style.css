@@ -197,6 +197,13 @@
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 1s;
+}
+
+.buttons-0 > li > button :hover {
+  width: 20px;
 }
 
 .css0 {
